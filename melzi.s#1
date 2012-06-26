@@ -18479,7 +18479,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <part name="JP12" library="SparkFun" deviceset="M02" device="3.5MM" value="BEDTEMP"/>
 <part name="JP13" library="SparkFun" deviceset="M02" device="3.5MM" value="ENDTEMP"/>
 <part name="IC5" library="linear" deviceset="78*" device="DT" technology="05"/>
-<part name="C26" library="SparkFun" deviceset="CAP" device="0805" value=".33uf"/>
 <part name="C27" library="SparkFun" deviceset="CAP" device="0805" value=".1uf"/>
 <part name="GND75" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP15" library="SparkFun" deviceset="M03" device="PTH" value="VREG/USB"/>
@@ -18626,6 +18625,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <part name="MS-X3" library="printrbot" deviceset="SOLDERJUMPER_2WAY" device="CONNECTED"/>
 <part name="R38" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0805" value="20k"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
+<part name="C24" library="rcl" deviceset="CPOL-EU" device="SMCC" value="4.7 uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -18712,7 +18712,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <instance part="JP12" gate="G$1" x="325.12" y="109.22" rot="R180"/>
 <instance part="JP13" gate="G$1" x="325.12" y="68.58" rot="R180"/>
 <instance part="IC5" gate="A1" x="292.1" y="162.56"/>
-<instance part="C26" gate="G$1" x="281.94" y="157.48"/>
 <instance part="C27" gate="G$1" x="302.26" y="157.48"/>
 <instance part="GND75" gate="1" x="292.1" y="149.86"/>
 <instance part="JP15" gate="G$1" x="320.04" y="154.94" rot="R90"/>
@@ -18859,6 +18858,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <instance part="MS-X3" gate="G$1" x="584.2" y="245.11"/>
 <instance part="R38" gate="G$1" x="566.42" y="228.6" rot="R90"/>
 <instance part="P+3" gate="VCC" x="576.58" y="264.16"/>
+<instance part="C24" gate="G$1" x="281.94" y="160.02"/>
 </instances>
 <busses>
 </busses>
@@ -18921,6 +18921,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <pinref part="C8" gate="G$1" pin="-"/>
 <pinref part="GND77" gate="1" pin="GND"/>
 <pinref part="JP12" gate="G$1" pin="2"/>
+<junction x="307.34" y="101.6"/>
 </segment>
 <segment>
 <wire x1="307.34" y1="55.88" x2="307.34" y2="58.42" width="0.1524" layer="91"/>
@@ -18951,10 +18952,10 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="292.1" y1="154.94" x2="302.26" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="154.94" x2="292.1" y2="152.4" width="0.1524" layer="91"/>
 <junction x="292.1" y="154.94"/>
-<pinref part="C26" gate="G$1" pin="2"/>
 <pinref part="C27" gate="G$1" pin="2"/>
 <pinref part="IC5" gate="A1" pin="GND"/>
 <pinref part="GND75" gate="1" pin="GND"/>
+<pinref part="C24" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <wire x1="259.08" y1="157.48" x2="259.08" y2="152.4" width="0.1524" layer="91"/>
@@ -20328,15 +20329,15 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <net name="N$36" class="0">
 <segment>
 <pinref part="IC5" gate="A1" pin="VI"/>
-<pinref part="C26" gate="G$1" pin="1"/>
 <pinref part="JS16" gate="A" pin="1"/>
 <wire x1="279.4" y1="175.26" x2="281.94" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="175.26" x2="281.94" y2="172.72" width="0.1524" layer="91"/>
-<junction x="281.94" y="162.56"/>
 <pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="172.72" x2="281.94" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="172.72" x2="281.94" y2="172.72" width="0.1524" layer="91"/>
 <junction x="281.94" y="172.72"/>
+<pinref part="C24" gate="G$1" pin="+"/>
+<junction x="281.94" y="162.56"/>
 </segment>
 </net>
 <net name="N$3" class="0">
