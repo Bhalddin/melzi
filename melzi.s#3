@@ -18510,7 +18510,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <part name="L1" library="SparkFun" deviceset="LED" device="1206" value="DEBUG"/>
 <part name="GND87" library="SparkFun" deviceset="GND" device=""/>
 <part name="R25" library="SparkFun" deviceset="RESISTOR" device="1206" value="1K"/>
-<part name="IC6" library="atmel" deviceset="ATMEGA644" device="A"/>
+<part name="IC6" library="atmel" deviceset="ATMEGA644" device="A" value="ATMEGA1284P"/>
 <part name="IC8" library="SparkFun" deviceset="FT232RL-BASIC" device="SSOP"/>
 <part name="P+20" library="supply1" deviceset="VCC" device=""/>
 <part name="GND66" library="SparkFun" deviceset="GND" device=""/>
@@ -20291,6 +20291,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="292.1" y1="248.92" x2="294.64" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="OUT1A"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
+<junction x="294.64" y="246.38"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -20299,6 +20300,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="292.1" y1="246.38" x2="294.64" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="OUT1B"/>
 <pinref part="JP1" gate="G$1" pin="4"/>
+<junction x="294.64" y="248.92"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -20306,6 +20308,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <pinref part="U2" gate="G$1" pin="OUT2A"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="287.02" y1="243.84" x2="294.64" y2="243.84" width="0.1524" layer="91"/>
+<junction x="294.64" y="243.84"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -20313,6 +20316,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <pinref part="U2" gate="G$1" pin="OUT2B"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="287.02" y1="241.3" x2="294.64" y2="241.3" width="0.1524" layer="91"/>
+<junction x="294.64" y="241.3"/>
 </segment>
 </net>
 <net name="N$69" class="0">

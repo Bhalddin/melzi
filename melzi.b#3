@@ -26,7 +26,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
@@ -5615,16 +5615,19 @@ design rules under a new name.</description>
 <wire x1="97.155" y1="19.685" x2="100.965" y2="19.685" width="0.8128" layer="1"/>
 <wire x1="100.965" y1="19.685" x2="100.965" y2="20.6375" width="0.8128" layer="1"/>
 <contactref element="C24" pad="+"/>
-<wire x1="96.145" y1="25.68" x2="96.145" y2="26.41" width="0.8128" layer="1"/>
-<wire x1="96.145" y1="26.41" x2="93.98" y2="28.575" width="0.8128" layer="1"/>
-<wire x1="93.98" y1="28.575" x2="92.75" y2="28.575" width="0.8128" layer="1"/>
+<wire x1="96.145" y1="25.68" x2="96.145" y2="25.93375" width="0.8128" layer="1"/>
 <wire x1="92.75" y1="28.575" x2="92.71" y2="28.615" width="0.8128" layer="1"/>
 <wire x1="96.145" y1="25.68" x2="96.30375" y2="25.81875" width="0.8128" layer="1"/>
-<wire x1="96.30375" y1="25.81875" x2="93.50375" y2="24.28875" width="0.8128" layer="1"/>
 <via x="93.50375" y="24.28875" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="93.50375" y1="24.28875" x2="99.85375" y2="20.79625" width="0.8128" layer="16"/>
 <wire x1="99.85375" y1="20.79625" x2="100.80625" y2="20.79625" width="0.8128" layer="16"/>
 <wire x1="100.80625" y1="20.79625" x2="100.965" y2="20.6375" width="0.8128" layer="16"/>
+<wire x1="93.50375" y1="24.28875" x2="93.50375" y2="25.87625" width="0.8128" layer="1"/>
+<wire x1="93.50375" y1="25.87625" x2="93.50375" y2="27.82125" width="0.8128" layer="1"/>
+<wire x1="93.50375" y1="27.82125" x2="92.71" y2="28.615" width="0.8128" layer="1"/>
+<wire x1="96.145" y1="26.41" x2="96.145" y2="25.93375" width="0.8128" layer="1"/>
+<wire x1="96.145" y1="25.93375" x2="96.2025" y2="25.87625" width="0.8128" layer="1"/>
+<wire x1="96.2025" y1="25.87625" x2="93.50375" y2="25.87625" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="C1" pad="2"/>

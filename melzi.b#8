@@ -4055,7 +4055,6 @@ design rules under a new name.</description>
 <via x="119.0625" y="22.5425" extent="1-16" drill="0.6"/>
 <wire x1="119.0625" y1="22.5425" x2="117.475" y2="22.5425" width="0.254" layer="1"/>
 <wire x1="117.475" y1="22.5425" x2="116.5225" y2="21.59" width="0.254" layer="1"/>
-<wire x1="116.760625" y1="21.828125" x2="116.5225" y2="21.59" width="0" layer="19" extent="1-16"/>
 <wire x1="104.4575" y1="28.2575" x2="73.66" y2="28.2575" width="0.254" layer="16"/>
 <wire x1="44.7675" y1="10.4775" x2="61.2775" y2="10.4775" width="0.254" layer="16"/>
 <wire x1="61.2775" y1="10.4775" x2="61.9125" y2="11.1125" width="0.254" layer="16"/>
@@ -4063,8 +4062,7 @@ design rules under a new name.</description>
 <wire x1="104.4575" y1="28.2575" x2="104.4575" y2="21.59" width="0.254" layer="16"/>
 <wire x1="104.4575" y1="21.59" x2="108.9025" y2="21.59" width="0.254" layer="16"/>
 <via x="108.9025" y="21.59" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="108.9025" y1="21.59" x2="116.601875" y2="21.59" width="0.254" layer="1"/>
-<wire x1="116.601875" y1="21.59" x2="116.760625" y2="21.828125" width="0" layer="19" extent="1-16"/>
+<wire x1="108.9025" y1="21.59" x2="116.5225" y2="21.59" width="0.254" layer="1"/>
 </signal>
 <signal name="!ZENABLE">
 <contactref element="IC6" pad="32"/>

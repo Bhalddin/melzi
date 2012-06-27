@@ -1215,7 +1215,7 @@
 <text x="74.295" y="45.56125" size="1.778" layer="27">E motor</text>
 <text x="94.615" y="47.46625" size="1.778" layer="27">power</text>
 <text x="111.125" y="45.87875" size="1.778" layer="27">bed</text>
-<text x="123.98375" y="45.56125" size="1.778" layer="27">hot end</text>
+<text x="124.46" y="45.72" size="1.778" layer="27">hot end</text>
 <text x="142.24" y="45.56125" size="1.778" layer="27">fan</text>
 <text x="152.55875" y="45.4025" size="1.778" layer="27">x-stop</text>
 <text x="162.56" y="45.24375" size="1.778" layer="27">y-stop</text>

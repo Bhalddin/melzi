@@ -30,7 +30,7 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -2492,9 +2492,9 @@ design rules under a new name.</description>
 <element name="R11" library="SparkFun" package="1206" value="10k" x="123.19" y="24.13" rot="R180"/>
 <element name="M3" library="SparkFun" package="DPAK" value="RFP30N06LE" x="146.05" y="30.48"/>
 <element name="R12" library="SparkFun" package="1206" value="10k" x="138.43" y="24.13" rot="R180"/>
-<element name="R4" library="SparkFun" package="1206" value="10k" x="189.23" y="33.02" rot="R90"/>
+<element name="R4" library="SparkFun" package="1206" value="4k7" x="189.23" y="33.02" rot="R90"/>
 <element name="C8" library="rcl" package="SMC_C" value="4.7 uF" x="185.42" y="31.75" rot="R270"/>
-<element name="R5" library="SparkFun" package="1206" value="10k" x="199.39" y="33.02" rot="R90"/>
+<element name="R5" library="SparkFun" package="1206" value="4k7" x="199.39" y="33.02" rot="R90"/>
 <element name="C9" library="rcl" package="SMC_C" value="4.7 uF" x="195.58" y="31.75" rot="R270"/>
 <element name="C28" library="rcl" package="UD-6,3X7,7_NICHICON" value="100 uF" x="107.95" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="104.14" y="27.305" size="1.016" layer="25" rot="R90"/>

@@ -1212,7 +1212,7 @@
 <text x="9.04875" y="45.56125" size="1.778" layer="27">X motor</text>
 <text x="30.95625" y="45.56125" size="1.778" layer="27">Y motor</text>
 <text x="52.22875" y="45.4025" size="1.778" layer="27">Z motor</text>
-<text x="73.9775" y="45.085" size="1.778" layer="27">E motor</text>
+<text x="74.295" y="45.56125" size="1.778" layer="27">E motor</text>
 <text x="94.615" y="47.46625" size="1.778" layer="27">power</text>
 <text x="111.125" y="45.87875" size="1.778" layer="27">bed</text>
 <text x="123.98375" y="45.56125" size="1.778" layer="27">hot end</text>

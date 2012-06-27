@@ -18427,7 +18427,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <part name="JP1" library="SparkFun" deviceset="M04" device="SCREW" value="X-MOT"/>
 <part name="JP2" library="SparkFun" deviceset="M04" device="SCREW" value="Y-MOT"/>
 <part name="JP3" library="SparkFun" deviceset="M04" device="SCREW" value="Z-MOT"/>
-<part name="JP4" library="SparkFun" deviceset="M04" device="SCREW" value="Y-MOT"/>
+<part name="JP4" library="SparkFun" deviceset="M04" device="SCREW" value="E-MOT"/>
 <part name="Q1" library="murata-filter" deviceset="CSTCR" device="" technology="6M00G53Z" value="16MHZ"/>
 <part name="X2" library="con-hirose" deviceset="MINI-USB-SHIELD-" device="UX60-MB-5ST"/>
 <part name="C41" library="rcl" deviceset="C-EU" device="C1206" value="1 uF"/>
