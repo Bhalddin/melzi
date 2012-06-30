@@ -18456,11 +18456,11 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <part name="M3" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="FDD8580" value="RFP30N06LE"/>
 <part name="R12" library="SparkFun" deviceset="RESISTOR" device="1206" value="10k"/>
 <part name="GND74" library="SparkFun" deviceset="GND" device=""/>
-<part name="R4" library="SparkFun" deviceset="RESISTOR" device="1206" value="10k"/>
+<part name="R4" library="SparkFun" deviceset="RESISTOR" device="1206" value="4k7"/>
 <part name="C8" library="rcl" deviceset="CPOL-EU" device="SMCC" value="4.7 uF"/>
 <part name="GND77" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+21" library="supply1" deviceset="VCC" device=""/>
-<part name="R5" library="SparkFun" deviceset="RESISTOR" device="1206" value="10k"/>
+<part name="R5" library="SparkFun" deviceset="RESISTOR" device="1206" value="4k7"/>
 <part name="C9" library="rcl" deviceset="CPOL-EU" device="SMCC" value="4.7 uF"/>
 <part name="GND78" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+22" library="supply1" deviceset="VCC" device=""/>
