@@ -3148,6 +3148,8 @@ design rules under a new name.</description>
 <contactref element="R6" pad="1"/>
 <contactref element="R8" pad="1"/>
 <contactref element="R9" pad="1"/>
+<wire x1="181.764" y1="16.125" x2="183.8325" y2="16.125" width="0.254" layer="1"/>
+<wire x1="183.8325" y1="16.125" x2="183.8325" y2="16.47825" width="0.254" layer="1"/>
 <wire x1="186.69" y1="21.082" x2="189.076" y2="18.725" width="0" layer="19" extent="1-1"/>
 <wire x1="176.022" y1="11.43" x2="181.764" y2="16.125" width="0" layer="19" extent="1-1"/>
 </signal>
