@@ -3155,6 +3155,16 @@ design rules under a new name.</description>
 <via x="177.927" y="20.79625" extent="1-16" drill="0.508" diameter="1.016"/>
 <via x="175.0695" y="20.79625" extent="1-16" drill="0.508" diameter="1.016"/>
 <via x="183.3245" y="21.2725" extent="1-16" drill="0.508" diameter="1.016"/>
+<via x="44.73575" y="12.73175" extent="1-16" drill="0.508" diameter="1.016"/>
+<via x="45.212" y="7.33425" extent="1-16" drill="0.508" diameter="1.016"/>
+<via x="93.31325" y="15.4305" extent="1-16" drill="0.508" diameter="1.016"/>
+<via x="94.4245" y="10.3505" extent="1-16" drill="0.508" diameter="1.016"/>
+<via x="80.772" y="15.90675" extent="1-16" drill="0.508" diameter="1.016"/>
+<via x="137.033" y="5.11175" extent="1-16" drill="0.508" diameter="1.016"/>
+<via x="120.42775" y="1.905" extent="1-16" drill="0.508" diameter="1.016"/>
+<via x="105.50525" y="3.175" extent="1-16" drill="0.508" diameter="1.016"/>
+<via x="154.33675" y="13.36675" extent="1-16" drill="0.508" diameter="1.016"/>
+<wire x1="168.402" y1="2.2225" x2="168.402" y2="2.2225" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VCC" class="1">
 <contactref element="R4" pad="1"/>

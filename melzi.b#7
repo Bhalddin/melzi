@@ -1220,7 +1220,7 @@
 <text x="152.55875" y="45.4025" size="1.778" layer="49">x-stop</text>
 <text x="162.56" y="45.24375" size="1.778" layer="49">y-stop</text>
 <text x="172.72" y="45.24375" size="1.778" layer="49">z-stop</text>
-<text x="183.35625" y="45.24375" size="1.778" layer="49">btemp</text>
+<text x="183.99125" y="45.085" size="1.778" layer="49">btemp</text>
 <text x="193.9925" y="45.24375" size="1.778" layer="49">etemp</text>
 <text x="94.615" y="45.24375" size="1.778" layer="49">+</text>
 <text x="99.85375" y="45.4025" size="1.778" layer="49">-</text>
