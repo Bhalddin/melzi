@@ -1,6 +1,6 @@
 Partlist
 
-Exported from melzi.sch at 27/06/2012 18:33
+Exported from melzi.sch at 26/07/2012 16:26
 
 EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
 
@@ -32,7 +32,8 @@ C20      10uF                        CAPACITOR_0805              CAPC2012X145AN 
 C21      0.1uF                       CAPACITOR_0805              CAPC2012X145AN        ipc-7351-capacitor 1
 C22      100uF                       CPOL-USD                    PANASONIC_D           rcl                1
 C23      0.1uF                       CAPACITOR_0805              CAPC2012X145AN        ipc-7351-capacitor 1
-C24      4.7 uF                      CPOL-EUSMCC                 SMC_C                 rcl                1
+C24      4.7 uF 30V                  CPOL-EUSMCC                 SMC_C                 rcl                1
+C25      .33uf                       CAP0805                     0805                  SparkFun           1
 C27      .1uf                        CAP0805                     0805                  SparkFun           1
 C28      100 uF                      CPOL-EUUD-6,3X7,7           UD-6,3X7,7_NICHICON   rcl                1
 C29      100 uF                      CPOL-EUUD-6,3X7,7           UD-6,3X7,7_NICHICON   rcl                1

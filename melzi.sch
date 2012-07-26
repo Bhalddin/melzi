@@ -18625,7 +18625,8 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <part name="MS-X3" library="printrbot" deviceset="SOLDERJUMPER_2WAY" device="CONNECTED"/>
 <part name="R38" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0805" value="20k"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="C24" library="rcl" deviceset="CPOL-EU" device="SMCC" value="4.7 uF"/>
+<part name="C24" library="rcl" deviceset="CPOL-EU" device="SMCC" value="4.7 uF 30V"/>
+<part name="C25" library="SparkFun" deviceset="CAP" device="0805" value=".33uf"/>
 </parts>
 <sheets>
 <sheet>
@@ -18859,6 +18860,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <instance part="R38" gate="G$1" x="566.42" y="228.6" rot="R90"/>
 <instance part="P+3" gate="VCC" x="576.58" y="264.16"/>
 <instance part="C24" gate="G$1" x="281.94" y="160.02"/>
+<instance part="C25" gate="G$1" x="274.32" y="157.48"/>
 </instances>
 <busses>
 </busses>
@@ -18956,6 +18958,8 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <pinref part="IC5" gate="A1" pin="GND"/>
 <pinref part="GND75" gate="1" pin="GND"/>
 <pinref part="C24" gate="G$1" pin="-"/>
+<pinref part="C25" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="154.94" x2="274.32" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="259.08" y1="157.48" x2="259.08" y2="152.4" width="0.1524" layer="91"/>
@@ -20336,6 +20340,8 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <junction x="281.94" y="172.72"/>
 <pinref part="C24" gate="G$1" pin="+"/>
 <junction x="281.94" y="162.56"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<wire x1="281.94" y1="162.56" x2="274.32" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
