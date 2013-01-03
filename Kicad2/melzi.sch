@@ -18427,7 +18427,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <part name="JP1" library="SparkFun" deviceset="M04" device="SCREW" value="X-MOT"/>
 <part name="JP2" library="SparkFun" deviceset="M04" device="SCREW" value="Y-MOT"/>
 <part name="JP3" library="SparkFun" deviceset="M04" device="SCREW" value="Z-MOT"/>
-<part name="JP4" library="SparkFun" deviceset="M04" device="SCREW" value="Y-MOT"/>
+<part name="JP4" library="SparkFun" deviceset="M04" device="SCREW" value="E-MOT"/>
 <part name="Q1" library="murata-filter" deviceset="CSTCR" device="" technology="6M00G53Z" value="16MHZ"/>
 <part name="X2" library="con-hirose" deviceset="MINI-USB-SHIELD-" device="UX60-MB-5ST"/>
 <part name="C41" library="rcl" deviceset="C-EU" device="C1206" value="1 uF"/>
@@ -18456,11 +18456,11 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <part name="M3" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="FDD8580" value="RFP30N06LE"/>
 <part name="R12" library="SparkFun" deviceset="RESISTOR" device="1206" value="10k"/>
 <part name="GND74" library="SparkFun" deviceset="GND" device=""/>
-<part name="R4" library="SparkFun" deviceset="RESISTOR" device="1206" value="10k"/>
+<part name="R4" library="SparkFun" deviceset="RESISTOR" device="1206" value="4k7"/>
 <part name="C8" library="rcl" deviceset="CPOL-EU" device="SMCC" value="4.7 uF"/>
 <part name="GND77" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+21" library="supply1" deviceset="VCC" device=""/>
-<part name="R5" library="SparkFun" deviceset="RESISTOR" device="1206" value="10k"/>
+<part name="R5" library="SparkFun" deviceset="RESISTOR" device="1206" value="4k7"/>
 <part name="C9" library="rcl" deviceset="CPOL-EU" device="SMCC" value="4.7 uF"/>
 <part name="GND78" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+22" library="supply1" deviceset="VCC" device=""/>
@@ -18479,7 +18479,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <part name="JP12" library="SparkFun" deviceset="M02" device="3.5MM" value="BEDTEMP"/>
 <part name="JP13" library="SparkFun" deviceset="M02" device="3.5MM" value="ENDTEMP"/>
 <part name="IC5" library="linear" deviceset="78*" device="DT" technology="05"/>
-<part name="C26" library="SparkFun" deviceset="CAP" device="0805" value=".33uf"/>
 <part name="C27" library="SparkFun" deviceset="CAP" device="0805" value=".1uf"/>
 <part name="GND75" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP15" library="SparkFun" deviceset="M03" device="PTH" value="VREG/USB"/>
@@ -18510,7 +18509,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <part name="L1" library="SparkFun" deviceset="LED" device="1206" value="DEBUG"/>
 <part name="GND87" library="SparkFun" deviceset="GND" device=""/>
 <part name="R25" library="SparkFun" deviceset="RESISTOR" device="1206" value="1K"/>
-<part name="IC6" library="atmel" deviceset="ATMEGA644" device="A"/>
+<part name="IC6" library="atmel" deviceset="ATMEGA644" device="A" value="ATMEGA1284P"/>
 <part name="IC8" library="SparkFun" deviceset="FT232RL-BASIC" device="SSOP"/>
 <part name="P+20" library="supply1" deviceset="VCC" device=""/>
 <part name="GND66" library="SparkFun" deviceset="GND" device=""/>
@@ -18626,6 +18625,8 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <part name="MS-X3" library="printrbot" deviceset="SOLDERJUMPER_2WAY" device="CONNECTED"/>
 <part name="R38" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0805" value="20k"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
+<part name="C24" library="rcl" deviceset="CPOL-EU" device="SMCC" value="4.7 uF 30V"/>
+<part name="C25" library="SparkFun" deviceset="CAP" device="0805" value=".33uf"/>
 </parts>
 <sheets>
 <sheet>
@@ -18712,7 +18713,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <instance part="JP12" gate="G$1" x="325.12" y="109.22" rot="R180"/>
 <instance part="JP13" gate="G$1" x="325.12" y="68.58" rot="R180"/>
 <instance part="IC5" gate="A1" x="292.1" y="162.56"/>
-<instance part="C26" gate="G$1" x="281.94" y="157.48"/>
 <instance part="C27" gate="G$1" x="302.26" y="157.48"/>
 <instance part="GND75" gate="1" x="292.1" y="149.86"/>
 <instance part="JP15" gate="G$1" x="320.04" y="154.94" rot="R90"/>
@@ -18766,7 +18766,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <instance part="JS1" gate="A" x="358.14" y="167.64" rot="R90"/>
 <instance part="JS2" gate="A" x="401.32" y="167.64" rot="R90"/>
 <instance part="JS3" gate="A" x="447.04" y="167.64" rot="R90"/>
-<instance part="R27" gate="G$1" x="228.6" y="218.44"/>
+<instance part="R27" gate="G$1" x="228.6" y="218.44" rot="MR180"/>
 <instance part="U2" gate="G$1" x="269.24" y="241.3"/>
 <instance part="C46" gate="G$1" x="269.24" y="271.78" rot="R180"/>
 <instance part="GND64" gate="1" x="294.64" y="205.74"/>
@@ -18791,7 +18791,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <instance part="R33" gate="G$1" x="289.56" y="177.8" rot="R90"/>
 <instance part="P+19" gate="VCC" x="238.76" y="264.16"/>
 <instance part="U$1" gate="G$1" x="414.02" y="261.62"/>
-<instance part="R6" gate="G$1" x="342.9" y="218.44"/>
+<instance part="R6" gate="G$1" x="342.9" y="218.44" rot="MR180"/>
 <instance part="U1" gate="G$1" x="383.54" y="241.3"/>
 <instance part="C1" gate="G$1" x="383.54" y="271.78" rot="R180"/>
 <instance part="GND1" gate="1" x="408.94" y="205.74"/>
@@ -18814,7 +18814,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <instance part="R17" gate="G$1" x="342.9" y="228.6" rot="R90"/>
 <instance part="P+1" gate="VCC" x="353.06" y="264.16"/>
 <instance part="U$2" gate="G$1" x="525.78" y="261.62"/>
-<instance part="R8" gate="G$1" x="454.66" y="218.44"/>
+<instance part="R8" gate="G$1" x="454.66" y="218.44" rot="MR180"/>
 <instance part="U3" gate="G$1" x="495.3" y="241.3"/>
 <instance part="C3" gate="G$1" x="495.3" y="271.78" rot="R180"/>
 <instance part="GND7" gate="1" x="520.7" y="205.74"/>
@@ -18837,7 +18837,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <instance part="R35" gate="G$1" x="454.66" y="228.6" rot="R90"/>
 <instance part="P+2" gate="VCC" x="464.82" y="264.16"/>
 <instance part="U$3" gate="G$1" x="637.54" y="261.62"/>
-<instance part="R9" gate="G$1" x="566.42" y="218.44"/>
+<instance part="R9" gate="G$1" x="566.42" y="218.44" rot="MR180"/>
 <instance part="U4" gate="G$1" x="607.06" y="241.3"/>
 <instance part="C4" gate="G$1" x="607.06" y="271.78" rot="R180"/>
 <instance part="GND13" gate="1" x="632.46" y="205.74"/>
@@ -18859,6 +18859,8 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <instance part="MS-X3" gate="G$1" x="584.2" y="245.11"/>
 <instance part="R38" gate="G$1" x="566.42" y="228.6" rot="R90"/>
 <instance part="P+3" gate="VCC" x="576.58" y="264.16"/>
+<instance part="C24" gate="G$1" x="281.94" y="160.02"/>
+<instance part="C25" gate="G$1" x="274.32" y="157.48"/>
 </instances>
 <busses>
 </busses>
@@ -18921,6 +18923,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <pinref part="C8" gate="G$1" pin="-"/>
 <pinref part="GND77" gate="1" pin="GND"/>
 <pinref part="JP12" gate="G$1" pin="2"/>
+<junction x="307.34" y="101.6"/>
 </segment>
 <segment>
 <wire x1="307.34" y1="55.88" x2="307.34" y2="58.42" width="0.1524" layer="91"/>
@@ -18951,10 +18954,12 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="292.1" y1="154.94" x2="302.26" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="154.94" x2="292.1" y2="152.4" width="0.1524" layer="91"/>
 <junction x="292.1" y="154.94"/>
-<pinref part="C26" gate="G$1" pin="2"/>
 <pinref part="C27" gate="G$1" pin="2"/>
 <pinref part="IC5" gate="A1" pin="GND"/>
 <pinref part="GND75" gate="1" pin="GND"/>
+<pinref part="C24" gate="G$1" pin="-"/>
+<pinref part="C25" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="154.94" x2="274.32" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="259.08" y1="157.48" x2="259.08" y2="152.4" width="0.1524" layer="91"/>
@@ -19102,7 +19107,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="251.46" y1="223.52" x2="248.92" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="220.98" x2="248.92" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="218.44" x2="248.92" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="213.36" x2="248.92" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="213.36" x2="248.92" y2="218.44" width="0.1524" layer="91"/>
 <junction x="248.92" y="220.98"/>
 <wire x1="248.92" y1="218.44" x2="248.92" y2="220.98" width="0.1524" layer="91"/>
@@ -19113,7 +19117,9 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <pinref part="U2" gate="G$1" pin="GND2"/>
 <pinref part="U2" gate="G$1" pin="PAD"/>
 <pinref part="GND65" gate="1" pin="GND"/>
-<pinref part="R27" gate="G$1" pin="E"/>
+<pinref part="R27" gate="G$1" pin="A"/>
+<wire x1="228.6" y1="213.36" x2="248.92" y2="213.36" width="0.1524" layer="91"/>
+<junction x="248.92" y="213.36"/>
 </segment>
 <segment>
 <pinref part="GND95" gate="1" pin="GND"/>
@@ -19146,7 +19152,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="365.76" y1="223.52" x2="363.22" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="220.98" x2="363.22" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="218.44" x2="363.22" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="213.36" x2="363.22" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="213.36" x2="363.22" y2="218.44" width="0.1524" layer="91"/>
 <junction x="363.22" y="220.98"/>
 <wire x1="363.22" y1="218.44" x2="363.22" y2="220.98" width="0.1524" layer="91"/>
@@ -19157,7 +19162,9 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <pinref part="U1" gate="G$1" pin="GND2"/>
 <pinref part="U1" gate="G$1" pin="PAD"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="R6" gate="G$1" pin="E"/>
+<pinref part="R6" gate="G$1" pin="A"/>
+<wire x1="342.9" y1="213.36" x2="363.22" y2="213.36" width="0.1524" layer="91"/>
+<junction x="363.22" y="213.36"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -19190,7 +19197,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="477.52" y1="223.52" x2="474.98" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="220.98" x2="474.98" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="218.44" x2="474.98" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="454.66" y1="213.36" x2="474.98" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="474.98" y1="213.36" x2="474.98" y2="218.44" width="0.1524" layer="91"/>
 <junction x="474.98" y="220.98"/>
 <wire x1="474.98" y1="218.44" x2="474.98" y2="220.98" width="0.1524" layer="91"/>
@@ -19201,7 +19207,9 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <pinref part="U3" gate="G$1" pin="GND2"/>
 <pinref part="U3" gate="G$1" pin="PAD"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="R8" gate="G$1" pin="E"/>
+<pinref part="R8" gate="G$1" pin="A"/>
+<wire x1="454.66" y1="213.36" x2="474.98" y2="213.36" width="0.1524" layer="91"/>
+<junction x="474.98" y="213.36"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -19234,7 +19242,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="589.28" y1="223.52" x2="586.74" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="589.28" y1="220.98" x2="586.74" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="589.28" y1="218.44" x2="586.74" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="566.42" y1="213.36" x2="586.74" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="586.74" y1="213.36" x2="586.74" y2="218.44" width="0.1524" layer="91"/>
 <junction x="586.74" y="220.98"/>
 <wire x1="586.74" y1="218.44" x2="586.74" y2="220.98" width="0.1524" layer="91"/>
@@ -19245,7 +19252,9 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <pinref part="U4" gate="G$1" pin="GND2"/>
 <pinref part="U4" gate="G$1" pin="PAD"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<pinref part="R9" gate="G$1" pin="E"/>
+<pinref part="R9" gate="G$1" pin="A"/>
+<wire x1="566.42" y1="213.36" x2="586.74" y2="213.36" width="0.1524" layer="91"/>
+<junction x="586.74" y="213.36"/>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
@@ -20227,11 +20236,11 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 </net>
 <net name="N$7" class="0">
 <segment>
-<wire x1="233.68" y1="218.44" x2="241.3" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="218.44" x2="241.3" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="228.6" x2="251.46" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="R27" gate="G$1" pin="S"/>
 <pinref part="U2" gate="G$1" pin="REF"/>
+<pinref part="R27" gate="G$1" pin="S"/>
+<wire x1="241.3" y1="218.44" x2="233.68" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -20291,6 +20300,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="292.1" y1="248.92" x2="294.64" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="OUT1A"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
+<junction x="294.64" y="246.38"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -20299,6 +20309,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="292.1" y1="246.38" x2="294.64" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="OUT1B"/>
 <pinref part="JP1" gate="G$1" pin="4"/>
+<junction x="294.64" y="248.92"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -20306,6 +20317,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <pinref part="U2" gate="G$1" pin="OUT2A"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="287.02" y1="243.84" x2="294.64" y2="243.84" width="0.1524" layer="91"/>
+<junction x="294.64" y="243.84"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -20313,26 +20325,23 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <pinref part="U2" gate="G$1" pin="OUT2B"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="287.02" y1="241.3" x2="294.64" y2="241.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$69" class="0">
-<segment>
-<pinref part="R39" gate="G$1" pin="1"/>
-<pinref part="R27" gate="G$1" pin="A"/>
+<junction x="294.64" y="241.3"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="IC5" gate="A1" pin="VI"/>
-<pinref part="C26" gate="G$1" pin="1"/>
 <pinref part="JS16" gate="A" pin="1"/>
 <wire x1="279.4" y1="175.26" x2="281.94" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="175.26" x2="281.94" y2="172.72" width="0.1524" layer="91"/>
-<junction x="281.94" y="162.56"/>
 <pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="172.72" x2="281.94" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="172.72" x2="281.94" y2="172.72" width="0.1524" layer="91"/>
 <junction x="281.94" y="172.72"/>
+<pinref part="C24" gate="G$1" pin="+"/>
+<junction x="281.94" y="162.56"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<wire x1="281.94" y1="162.56" x2="274.32" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -20366,11 +20375,11 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 </net>
 <net name="N$18" class="0">
 <segment>
-<wire x1="347.98" y1="218.44" x2="355.6" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="218.44" x2="355.6" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="228.6" x2="365.76" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="S"/>
 <pinref part="U1" gate="G$1" pin="REF"/>
+<pinref part="R6" gate="G$1" pin="S"/>
+<wire x1="347.98" y1="218.44" x2="355.6" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -20458,12 +20467,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <junction x="408.94" y="241.3"/>
 </segment>
 </net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="A"/>
-</segment>
-</net>
 <net name="N$20" class="0">
 <segment>
 <wire x1="490.22" y1="271.78" x2="490.22" y2="266.7" width="0.1524" layer="91"/>
@@ -20495,11 +20498,11 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 </net>
 <net name="N$48" class="0">
 <segment>
-<wire x1="459.74" y1="218.44" x2="467.36" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="467.36" y1="218.44" x2="467.36" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="467.36" y1="228.6" x2="477.52" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="S"/>
 <pinref part="U3" gate="G$1" pin="REF"/>
+<pinref part="R8" gate="G$1" pin="S"/>
+<wire x1="467.36" y1="218.44" x2="459.74" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -20585,12 +20588,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="513.08" y1="241.3" x2="520.7" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <junction x="520.7" y="241.3"/>
-</segment>
-</net>
-<net name="N$59" class="0">
-<segment>
-<pinref part="R35" gate="G$1" pin="1"/>
-<pinref part="R8" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -20721,15 +20718,37 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <junction x="632.46" y="241.3"/>
 </segment>
 </net>
-<net name="N$74" class="0">
-<segment>
-<pinref part="R38" gate="G$1" pin="1"/>
-<pinref part="R9" gate="G$1" pin="A"/>
-</segment>
-</net>
 <net name="N$75" class="0">
 <segment>
 <wire x1="662.94" y1="259.08" x2="662.94" y2="264.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$69" class="0">
+<segment>
+<pinref part="R39" gate="G$1" pin="1"/>
+<pinref part="R27" gate="G$1" pin="E"/>
+<junction x="228.6" y="223.52"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="E"/>
+<junction x="342.9" y="223.52"/>
+</segment>
+</net>
+<net name="N$59" class="0">
+<segment>
+<pinref part="R35" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="E"/>
+<junction x="454.66" y="223.52"/>
+</segment>
+</net>
+<net name="N$74" class="0">
+<segment>
+<pinref part="R38" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="E"/>
+<junction x="566.42" y="223.52"/>
 </segment>
 </net>
 </nets>

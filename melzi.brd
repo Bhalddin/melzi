@@ -1248,6 +1248,7 @@
 <text x="200.3425" y="19.84375" size="0.6096" layer="49" rot="R90">AUTO-RESET</text>
 <text x="89.8525" y="16.98625" size="0.6096" layer="49" rot="R90">VREG</text>
 <text x="89.8525" y="14.44625" size="0.6096" layer="49" rot="R90">USB</text>
+<text x="8.09625" y="4.1275" size="1.016" layer="49">Made in the UK</text>
 </plain>
 <libraries>
 <library name="rcl">
